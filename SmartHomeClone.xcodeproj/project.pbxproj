@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA2FA7DD2889C78900E5AD11 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FA7DC2889C78900E5AD11 /* HomeView.swift */; };
+		FA2FA7E02889D11800E5AD11 /* GadgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FA7DF2889D11800E5AD11 /* GadgetView.swift */; };
+		FA496DB0288AB5B1009CED38 /* GadgetObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA496DAF288AB5B1009CED38 /* GadgetObservable.swift */; };
+		FA496DB2288AB941009CED38 /* GadgetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA496DB1288AB941009CED38 /* GadgetDetailView.swift */; };
 		FAA38702288893E4008B02CA /* SmartHomeCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA38701288893E4008B02CA /* SmartHomeCloneApp.swift */; };
 		FAA38704288893E4008B02CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA38703288893E4008B02CA /* ContentView.swift */; };
 		FAA38706288893E6008B02CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA38705288893E6008B02CA /* Assets.xcassets */; };
 		FAA38709288893E6008B02CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA38708288893E6008B02CA /* Preview Assets.xcassets */; };
+		FAA3871228889489008B02CA /* ACWind.sks in Resources */ = {isa = PBXBuildFile; fileRef = FAA3871128889489008B02CA /* ACWind.sks */; };
+		FAA3871628889872008B02CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA3871428889872008B02CA /* Assets.xcassets */; };
+		FAC7452F288B05100095A0EA /* GadgetControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7452E288B050F0095A0EA /* GadgetControlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA2FA7DC2889C78900E5AD11 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FA2FA7DF2889D11800E5AD11 /* GadgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GadgetView.swift; sourceTree = "<group>"; };
+		FA496DAF288AB5B1009CED38 /* GadgetObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GadgetObservable.swift; sourceTree = "<group>"; };
+		FA496DB1288AB941009CED38 /* GadgetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GadgetDetailView.swift; sourceTree = "<group>"; };
 		FAA386FE288893E4008B02CA /* SmartHomeClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHomeClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA38701288893E4008B02CA /* SmartHomeCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHomeCloneApp.swift; sourceTree = "<group>"; };
 		FAA38703288893E4008B02CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FAA38705288893E6008B02CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA38708288893E6008B02CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAA3871128889489008B02CA /* ACWind.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ACWind.sks; sourceTree = "<group>"; };
+		FAA3871428889872008B02CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC7452E288B050F0095A0EA /* GadgetControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GadgetControlView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,9 +46,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA2FA7DB2889C76500E5AD11 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FA496DAE288AB59A009CED38 /* Observables */,
+				FA2FA7DE2889C82100E5AD11 /* Views */,
+				FA2FA7DC2889C78900E5AD11 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FA2FA7DE2889C82100E5AD11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA2FA7DF2889D11800E5AD11 /* GadgetView.swift */,
+				FA496DB1288AB941009CED38 /* GadgetDetailView.swift */,
+				FAC7452E288B050F0095A0EA /* GadgetControlView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA496DAE288AB59A009CED38 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				FA496DAF288AB5B1009CED38 /* GadgetObservable.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
 		FAA386F5288893E4008B02CA = {
 			isa = PBXGroup;
 			children = (
+				FAA3871428889872008B02CA /* Assets.xcassets */,
 				FAA38700288893E4008B02CA /* SmartHomeClone */,
 				FAA386FF288893E4008B02CA /* Products */,
 			);
@@ -51,10 +94,12 @@
 		FAA38700288893E4008B02CA /* SmartHomeClone */ = {
 			isa = PBXGroup;
 			children = (
+				FA2FA7DB2889C76500E5AD11 /* Home */,
 				FAA38701288893E4008B02CA /* SmartHomeCloneApp.swift */,
 				FAA38703288893E4008B02CA /* ContentView.swift */,
 				FAA38705288893E6008B02CA /* Assets.xcassets */,
 				FAA38707288893E6008B02CA /* Preview Content */,
+				FAA3871128889489008B02CA /* ACWind.sks */,
 			);
 			path = SmartHomeClone;
 			sourceTree = "<group>";
@@ -127,6 +172,8 @@
 			files = (
 				FAA38709288893E6008B02CA /* Preview Assets.xcassets in Resources */,
 				FAA38706288893E6008B02CA /* Assets.xcassets in Resources */,
+				FAA3871628889872008B02CA /* Assets.xcassets in Resources */,
+				FAA3871228889489008B02CA /* ACWind.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +184,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA496DB0288AB5B1009CED38 /* GadgetObservable.swift in Sources */,
+				FA2FA7DD2889C78900E5AD11 /* HomeView.swift in Sources */,
+				FAC7452F288B05100095A0EA /* GadgetControlView.swift in Sources */,
 				FAA38704288893E4008B02CA /* ContentView.swift in Sources */,
+				FA496DB2288AB941009CED38 /* GadgetDetailView.swift in Sources */,
+				FA2FA7E02889D11800E5AD11 /* GadgetView.swift in Sources */,
 				FAA38702288893E4008B02CA /* SmartHomeCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
